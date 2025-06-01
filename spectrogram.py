@@ -16,8 +16,8 @@ def load_and_process(filepath):
 def display_spectrogram(spectrogram, label):
     plt.figure(figsize=(10, 4))
     plt.imshow(spectrogram, aspect='auto', origin='lower', cmap='magma')
-    plt.title("Mel Spectrogram - " + label)
+    plt.title("Spectrogram - " + label)
     plt.xlabel("Time")
-    plt.ylabel("Mel Frequency")
+    plt.ylabel("Frequency")
     plt.colorbar(format='%+2.0f dB')
     plt.show()
