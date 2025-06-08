@@ -35,7 +35,7 @@ Make sure you have folders `cat/` and `dog/` with `.wav` files named like `cat1.
 Run the training script:
 
 ```bash
-python train_model.py
+python main.py
 ```
 
 This will:
