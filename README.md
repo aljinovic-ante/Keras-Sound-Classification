@@ -12,7 +12,7 @@ This project is a deep learning model that classifies audio recordings as either
 ├── test_sounds/              # Folder with test .wav files for prediction
 ├── spectrogram.py            # Spectrogram processing & visualization
 ├── model.py                  # CNN model definition
-├── train_model.py            # Model training script
+├── main.py                   # Model training script
 ├── predict.py                # Script to make predictions on new audio
 ├── cat_dog_sound_model.h5    # Trained model (generated after training)
 ```
