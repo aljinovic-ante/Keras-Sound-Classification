@@ -66,15 +66,15 @@ This will:
 
 The `display_spectrogram` function shows a spectrogram like this:
 
-# Dog: \n
+# Dog:
 ![image](https://github.com/user-attachments/assets/ddfb173f-d523-40e4-b36d-258cf2d70d42)
-# And it makes a prediction based on that spectrogram: \n
+# And it makes a prediction based on that spectrogram:
 ![image](https://github.com/user-attachments/assets/bea76af9-7986-46de-9d2a-7719fd22e684)
 
 
-# Cat: \n
+# Cat:
 ![image](https://github.com/user-attachments/assets/6489cf17-a7f6-48dc-aa31-3a2c25b88e37)
-# And it makes a prediction based on that spectrogram: \n
+# And it makes a prediction based on that spectrogram:
 ![image](https://github.com/user-attachments/assets/930d5fb1-2c29-4753-8aac-9cdd20ef1b60)
 
 
