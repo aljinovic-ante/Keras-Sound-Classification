@@ -1,10 +1,10 @@
-# 🐱🐶 Cat vs. Dog Sound Classifier
+# Cat vs. Dog Sound Classifier
 
 This project is a deep learning model that classifies audio recordings as either **cat** or **dog** sounds using spectrograms and a Convolutional Neural Network (CNN).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── cat/                      # Folder with cat .wav files
@@ -19,7 +19,7 @@ This project is a deep learning model that classifies audio recordings as either
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Audio files are loaded and converted into Mel spectrograms using `librosa`.
 2. These spectrograms are resized to a uniform size of `128 x 128`.
@@ -28,7 +28,7 @@ This project is a deep learning model that classifies audio recordings as either
 
 ---
 
-## 🚀 Training
+## Training
 
 Make sure you have folders `cat/` and `dog/` with `.wav` files named like `cat1.wav`, `dog2.wav`, etc.
 
@@ -45,7 +45,7 @@ This will:
 
 ---
 
-## 🧪 Prediction
+## Prediction
 
 Put your `.wav` test files in the `test_sounds/` folder.
 
@@ -62,7 +62,7 @@ This will:
 
 ---
 
-## 🖼️ Example
+## Example
 
 The `display_spectrogram` function shows a spectrogram like this:
 
@@ -82,7 +82,7 @@ The `display_spectrogram` function shows a spectrogram like this:
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install dependencies using pip:
 
@@ -92,7 +92,7 @@ pip install tensorflow librosa matplotlib scikit-learn numpy
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Binary classification: `0 = Cat`, `1 = Dog`.
 - Model uses a CNN with:
